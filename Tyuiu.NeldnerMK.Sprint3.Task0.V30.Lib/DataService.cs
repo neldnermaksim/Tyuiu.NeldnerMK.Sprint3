@@ -10,15 +10,17 @@ namespace Tyuiu.NeldnerMK.Sprint3.Task0.V30.Lib
     {
         public double GetMultiplySeries(int startValue, int stopValue)
         {
-            double product = 1.0;
-            double sinValuePower = Math.Pow(Math.Sin(1), -10);
-
-            for (int k = startValue; k <= stopValue; k++)
             {
-                product *= (double)k / sinValuePower;
-            }
+                double product = 1.0;
+                double sinValuePower = Math.Pow(Math.Sin(1), -10);
 
-            return Math.Round(product,3);
+                for (int k = startValue; k <= stopValue; k++)
+                {
+                    product *= (double)k / sinValuePower;
+                }
+
+                return Math.Round(product, 3);
+            }
         }
     }
 }
