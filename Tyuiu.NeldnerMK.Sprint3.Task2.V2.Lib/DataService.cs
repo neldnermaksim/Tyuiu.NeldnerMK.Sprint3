@@ -15,7 +15,7 @@ namespace Tyuiu.NeldnerMK.Sprint3.Task2.V2.Lib
 
             do
             {
-                p *= (Math.Sin(0.1) + k);
+                p *= Math.Sin(0.1) + k;
                 k++;
 
             } while (k >= stopValue);
