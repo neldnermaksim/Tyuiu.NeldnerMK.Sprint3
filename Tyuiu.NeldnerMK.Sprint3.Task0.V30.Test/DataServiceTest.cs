@@ -12,7 +12,7 @@ namespace Tyuiu.NeldnerMK.Sprint3.Task0.V30.Test
         {
             DataService ds = new DataService();
             int startValue = 1;
-            int stopValue = 20;
+            int stopValue = 20; 
 
             double wait = 2477.158;
             double value = ds.GetMultiplySeries(startValue, stopValue);
