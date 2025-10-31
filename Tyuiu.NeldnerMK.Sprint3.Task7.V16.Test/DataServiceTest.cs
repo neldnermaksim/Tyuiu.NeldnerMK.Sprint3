@@ -10,3 +10,6 @@ namespace Tyuiu.NeldnerMK.Sprint3.Task7.V16.Test
     {
         [TestMethod]
         public void ValidGetCompare()
+        {
+
+        }
